@@ -1,11 +1,11 @@
 <?php
 /*
 Plugin Name: LDAP Authentication
-Plugin URI: http://www.andrew-bellamy.co.uk
+Plugin URI: http://www.andrew-bellamy.co.uk/
 Description:  Authenticates against an LDAP server.
 Version: 5.0
 Author: Andrew Bellamy
-Author URI: http://www.andrew-bellamy.co.uk
+Author URI: http://www.andrew-bellamy.co.uk/
 */
 
 

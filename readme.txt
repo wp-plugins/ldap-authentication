@@ -3,7 +3,7 @@ Contributors: ajbellamy
 Tags: ldap, authentication
 Requires at least: 2.6.2
 Tested up to: 2.6.2
-Stable tag: 1
+Stable tag: 2
 
 Authenticate against an LDAP server
 
