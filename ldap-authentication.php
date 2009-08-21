@@ -1,16 +1,16 @@
 <?php
 /*
 Plugin Name: LDAP Authentication
-Plugin URI: http://www.andrew-bellamy.co.uk/
+Plugin URI: http://www.andrew-bellamy.co.uk/index.php/software/
 Description:  Authenticates against an LDAP server.
 Version: 5.0
 Author: Andrew Bellamy
-Author URI: http://www.andrew-bellamy.co.uk/
+Author URI: http://www.andrew-bellamy.co.uk
 */
 
 
 /*
-Copyright YEAR  PLUGIN_AUTHOR_NAME  (email : PLUGIN AUTHOR EMAIL)
+Copyright 2009 Andrew Bellamy  (email : bellamy.aj@gmail.com)
 
 This program is free software; you can redistribute it and/or modify
 it under the terms of the GNU General Public License as published by
