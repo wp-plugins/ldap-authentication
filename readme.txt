@@ -1,25 +1,30 @@
-=== Andys' Crumbs ===
+=== LDAP Authentication ===
 Contributors: ajbellamy
-Tags: breadcrumbs, navigation
-Requires at least: 2.7
-Tested up to: 2.8.4
+Tags: ldap, authentication
+Requires at least: 2.6.2
+Tested up to: 2.7
 Stable tag: 1.0
 
-Allows for breadcrumbs in a Wordpress Installation with little effort.
+Authenticate against an LDAP server
 
 == Description ==
 
-Add a breadcrumb trail to your blog/site
+Once installed, this plugin will authenticate against an LDAP server (Tested on Windows Server 2003).
+
+
+== Usage ==
+
+1. Fill in the details found under the admin menu tabs and login.
+1. An OU can be band like a Student OU.
+1. If activated, plugin will search LDAP and if the user is not found then it will search your wordpress database.
+
 
 == Installation ==
 
-1. (Optional) - If you want to change the seperator between breadcrumbs on andys-crumbs.php find $seperator and change the value between the span tag
-1. Upload into your plugins directory and activate "Andy's Crumbs"
-1. In a template e.g. header.php, add the following line
-
-'&lt;?php crumbs(); ?&gt;'
-
-1. Done
+- Upload `ldap-authentication.php` to the /wp-content/plugins/ directory
+- Activate the plugin through the 'Plugins' menu in WordPress
+- Fill in the required details on the 'Admin Menu'
+- Any problems please e-mail me
 
 ==License==
 
@@ -28,5 +33,3 @@ This code is licenced under the GPL v2 or later.
 ==Changelog==
 
 * V1.0 - First Release
-
-
